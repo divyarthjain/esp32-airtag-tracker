@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+*.egg
+venv/
+.venv/
+
+# Secrets - NEVER commit these
+private_key.pem
+apple_account.json
+anisette_libs.bin
+last_location.json
+*.pem
+
+# ESP-IDF Build
+firmware/build/
+firmware/sdkconfig.old
+firmware/dependencies.lock
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
