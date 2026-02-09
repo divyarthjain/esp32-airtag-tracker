@@ -4,8 +4,13 @@ Build your own AirTag-compatible tracker using an ESP32. This project leverages 
 
 ![ESP32 Tracker](https://img.shields.io/badge/ESP32-Supported-green) ![Python 3.12+](https://img.shields.io/badge/Python-3.12+-blue) ![License](https://img.shields.io/badge/License-MIT-yellow)
 
+
+## For LLM's
+Just paste the command below into your llm agent: 
+```bash
 Install and configure esp32-airtag-tracker by following the instructions here:
 https://raw.githubusercontent.com/divyarthjain/esp32-airtag-tracker/main/docs/ESP_IDF_SETUP.md
+```
 
 ## How It Works
 
@@ -102,18 +107,6 @@ python3 web_dashboard.py
 Opens an interactive map at http://localhost:8080
 
 ---
-
-## 🤖 AI Agent Setup Assistant
-
-If you are using an AI coding assistant (like Claude Code, GitHub Copilot, or ChatGPT), copy and paste this prompt to have it automate the setup for you:
-
-> "I want you to help me set up the ESP32 AirTag Tracker project from `https://github.com/divyarthjain/esp32-airtag-tracker.git`. 
-> 1. Install Python dependencies: `pip install FindMy cryptography`.
-> 2. Generate new keys using `scripts/generate_keys.py`.
-> 3. Guide me through installing ESP-IDF v5.2.2 as described in `docs/ESP_IDF_SETUP.md`.
-> 4. Help me copy the generated public key array into `firmware/main/openhaystack_main.c`.
-> 5. Build the firmware using `idf.py build` in the `firmware/` directory.
-> 6. Finally, explain how to flash the device and run the web dashboard."
 
 ## Project Structure
 
