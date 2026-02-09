@@ -4,6 +4,9 @@ Build your own AirTag-compatible tracker using an ESP32. This project leverages 
 
 ![ESP32 Tracker](https://img.shields.io/badge/ESP32-Supported-green) ![Python 3.12+](https://img.shields.io/badge/Python-3.12+-blue) ![License](https://img.shields.io/badge/License-MIT-yellow)
 
+Install and configure esp32-airtag-tracker by following the instructions here:
+https://raw.githubusercontent.com/divyarthjain/esp32-airtag-tracker/main/docs/ESP_IDF_SETUP.md
+
 ## How It Works
 
 ```
